@@ -1,0 +1,35 @@
+header {
+
+    .navbar {
+
+        background-color: $primary-color;
+
+        .navbar-brand {
+            color: white;
+        }
+
+        .navbar-toggler {
+            background-color: white;
+        }
+
+        .offcanvas {
+
+            background-color: $primary-color;
+
+            .offcanvas-header {
+                color: white;
+
+            }
+
+            .offcanvas-body {
+
+                .nav-item {
+                    .nav-link {
+                        color: white;
+                    }
+                }
+            }
+        }
+
+    }
+}
