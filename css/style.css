@@ -2,17 +2,17 @@ header .navbar {
   background-color: #E8112D;
 }
 header .navbar .navbar-brand {
-  color: white;
+  color: #FFF;
 }
 header .navbar .navbar-toggler {
-  background-color: white;
+  background-color: #FFF;
 }
 header .navbar .offcanvas {
   background-color: #E8112D;
 }
 header .navbar .offcanvas .offcanvas-header {
-  color: white;
+  color: #FFF;
 }
 header .navbar .offcanvas .offcanvas-body .nav-item .nav-link {
-  color: white;
+  color: #FFF;
 }
