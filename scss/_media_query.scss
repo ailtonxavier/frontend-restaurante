@@ -1,8 +1,5 @@
-// @media screen and (min-width: 1200px) {
-//     .navbar {
-//         height: 14vh;
-//     }
-//     .navbar-toggler {
-//         height: 50px;
-//     }
-// }
+@import './media_query/576_down';
+@import './media_query/577-768';
+@import './media_query/769-991';
+@import './media_query/992-1199';
+@import './media_query/1200_up';

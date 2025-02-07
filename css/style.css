@@ -16,3 +16,61 @@ header .navbar .offcanvas .offcanvas-header {
 header .navbar .offcanvas .offcanvas-body .nav-item .nav-link {
   color: #FFF;
 }
+
+@media screen and (max-width: 576px) {
+  .offcanvas-end {
+    max-width: 90%;
+  }
+}
+@media screen and (min-width: 557px) and (max-width: 768px) {
+  .offcanvas-end {
+    max-width: 260px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .offcanvas-end {
+    max-width: 280px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .navbar {
+    height: 12vh;
+  }
+  .navbar .navbar fixed-top .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .navbar .navbar-toggler {
+    margin-left: auto;
+  }
+  .navbar .offcanvas-end {
+    max-width: 300px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navbar {
+    height: 15vh;
+  }
+  .navbar .navbar fixed-top .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .navbar .navbar-toggler {
+    margin-left: auto;
+  }
+  .navbar .offcanvas-end {
+    max-width: 320px;
+  }
+}
