@@ -23,11 +23,40 @@ header .navbar .offcanvas .offcanvas-body .nav-item .nav-link {
   }
 }
 @media screen and (min-width: 557px) and (max-width: 768px) {
+  .navbar .navbar fixed-top .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .navbar .navbar-toggler {
+    margin-left: auto;
+  }
   .offcanvas-end {
     max-width: 260px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 991px) {
+  .navbar {
+    height: 10vh;
+  }
+  .navbar .navbar fixed-top .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .navbar .navbar-toggler {
+    margin-left: auto;
+  }
   .offcanvas-end {
     max-width: 280px;
   }

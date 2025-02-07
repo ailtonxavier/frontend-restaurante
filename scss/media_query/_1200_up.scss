@@ -1,7 +1,9 @@
 
 @media screen and (min-width: 1200px) {
     .navbar {
+
         height: 15vh;
+
         .navbar fixed-top .container-fluid {
             display: flex;
             justify-content: space-between;
@@ -9,13 +11,13 @@
         }
         
         .navbar-brand {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
         }
         
         .navbar-toggler {
-        margin-left: auto;
+            margin-left: auto;
         }
 
         .offcanvas-end {
