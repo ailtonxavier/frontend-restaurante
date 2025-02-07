@@ -36,7 +36,7 @@ header .navbar .offcanvas .offcanvas-body .nav-item .nav-link {
   .navbar .navbar-toggler {
     margin-left: auto;
   }
-  .offcanvas-end {
+  .navbar .offcanvas-end {
     max-width: 260px;
   }
 }
@@ -57,7 +57,7 @@ header .navbar .offcanvas .offcanvas-body .nav-item .nav-link {
   .navbar .navbar-toggler {
     margin-left: auto;
   }
-  .offcanvas-end {
+  .navbar .offcanvas-end {
     max-width: 280px;
   }
 }
@@ -98,6 +98,9 @@ header .navbar .offcanvas .offcanvas-body .nav-item .nav-link {
   }
   .navbar .navbar-toggler {
     margin-left: auto;
+  }
+  .navbar .navbar-toggler {
+    margin-right: 1.5%;
   }
   .navbar .offcanvas-end {
     max-width: 320px;

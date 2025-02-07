@@ -1,25 +1,14 @@
-
 @media screen and (min-width: 1200px) {
     .navbar {
 
         height: 15vh;
 
-        .navbar fixed-top .container-fluid {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .navbar-brand {
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-        
-        .navbar-toggler {
-            margin-left: auto;
-        }
+        @include page-title-aligh;
 
+        @include navbar-button-margin;
+        // .navbar-toggler {
+        //     margin-right: 1%;
+        // }
         .offcanvas-end {
             max-width: 320px;
         }

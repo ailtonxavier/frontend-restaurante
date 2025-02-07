@@ -1,0 +1,24 @@
+
+@mixin page-title-aligh {
+    .navbar fixed-top .container-fluid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .navbar-toggler {
+        margin-left: auto;
+    }
+}
+
+@mixin navbar-button-margin {
+    .navbar-toggler {
+        margin-right: 1.5%;
+    }
+}
