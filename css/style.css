@@ -42,7 +42,9 @@ header .navbar .offcanvas .offcanvas-body .nav-item .nav-link {
 }
 @media screen and (min-width: 769px) and (max-width: 991px) {
   .navbar {
-    height: 10vh;
+    margin: 0;
+    padding: 0;
+    height: 100px;
   }
   .navbar .navbar fixed-top .container-fluid {
     display: flex;
@@ -63,7 +65,9 @@ header .navbar .offcanvas .offcanvas-body .nav-item .nav-link {
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .navbar {
-    height: 12vh;
+    margin: 0;
+    padding: 0;
+    height: 120px;
   }
   .navbar .navbar fixed-top .container-fluid {
     display: flex;
@@ -84,7 +88,9 @@ header .navbar .offcanvas .offcanvas-body .nav-item .nav-link {
 }
 @media screen and (min-width: 1200px) {
   .navbar {
-    height: 15vh;
+    margin: 0;
+    padding: 0;
+    height: 150px;
   }
   .navbar .navbar fixed-top .container-fluid {
     display: flex;

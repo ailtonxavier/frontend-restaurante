@@ -1,14 +1,13 @@
 @media screen and (min-width: 1200px) {
     .navbar {
-
-        height: 15vh;
+        @include no-padding-no-margin;
 
         @include page-title-aligh;
 
         @include navbar-button-margin;
-        // .navbar-toggler {
-        //     margin-right: 1%;
-        // }
+        
+        height: 150px;
+
         .offcanvas-end {
             max-width: 320px;
         }

@@ -2,7 +2,9 @@
 
     .navbar {
 
-        height: 12vh;
+        @include no-padding-no-margin;
+
+        height: 120px;
 
         @include page-title-aligh;
 
