@@ -1,5 +1,7 @@
 @mixin _1200-up_header {
+
     .navbar {
+
         @include no-padding-no-margin;
 
         @include page-title-aligh;

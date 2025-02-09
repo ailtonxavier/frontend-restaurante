@@ -1,173 +1,190 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
-header .navbar {
+header section .navbar {
   background-color: #E8112D;
 }
-header .navbar .navbar-brand {
+header section .navbar .navbar-brand {
   color: #FFF;
 }
-header .navbar .navbar-brand .logo-container {
+header section .navbar .navbar-brand .logo-container {
   position: relative;
   display: inline-block;
 }
-header .navbar .navbar-brand .logo-container .logo-image {
+header section .navbar .navbar-brand .logo-container .logo-image {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
 }
-header .navbar .navbar-brand .logo-container .page-title {
+header section .navbar .navbar-brand .logo-container .page-title {
   font-family: "Dancing Script", serif;
   position: relative;
   z-index: 1;
   margin: 0;
 }
-header .navbar .navbar-toggler {
+header section .navbar .navbar-toggler {
   background-color: #FFF;
 }
-header .navbar .offcanvas {
+header section .navbar .offcanvas {
   background-color: #E8112D;
 }
-header .navbar .offcanvas .offcanvas-header .offcanvas-title {
+header section .navbar .offcanvas .offcanvas-header .offcanvas-title {
   color: #FFF;
   font-family: "Dancing Script", serif;
   font-size: 1.6rem;
 }
-header .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .card .card-body .card-title {
+header section .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .card .card-body .card-title {
   font-family: "Dancing Script", serif;
   font-size: 1.6rem;
 }
-header .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .card .card-body .card-subtitle {
+header section .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .card .card-body .card-subtitle {
   font-family: "Dancing Script", serif;
   font-size: 1.2rem;
 }
-header .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .card .card-body .btn-primary {
+header section .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .card .card-body .btn-primary {
   border: 0;
   background-color: #E8112D;
 }
-
 @media screen and (max-width: 576px) {
-  .navbar-brand .logo-container .logo-image {
+  body {
+    padding-top: 60px;
+  }
+  body .navbar-brand .logo-container .logo-image {
     width: 2.5rem;
   }
-  .navbar-brand .logo-container .page-title {
+  body .navbar-brand .logo-container .page-title {
     font-size: 1.8rem;
   }
-  .offcanvas-end {
+  body .offcanvas-end {
     max-width: 90%;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 768px) {
-  .navbar .navbar fixed-top .container-fluid {
+  body {
+    padding-top: 80px;
+  }
+  body .navbar {
+    height: 80px;
+  }
+  body .navbar .navbar fixed-top .container-fluid {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .navbar .navbar-brand {
+  body .navbar .navbar-brand {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
   }
-  .navbar .navbar-toggler {
+  body .navbar .navbar-toggler {
     margin-left: auto;
   }
-  .navbar .navbar-brand .logo-container .logo-image {
+  body .navbar .navbar-brand .logo-container .logo-image {
     width: 2.5rem;
   }
-  .navbar .navbar-brand .logo-container .page-title {
+  body .navbar .navbar-brand .logo-container .page-title {
     font-size: 2rem;
   }
-  .navbar .offcanvas-end {
+  body .navbar .offcanvas-end {
     max-width: 260px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 991px) {
-  .navbar {
+  body {
+    padding-top: 100px;
+  }
+  body .navbar {
     margin: 0;
     padding: 0;
     height: 100px;
   }
-  .navbar .navbar fixed-top .container-fluid {
+  body .navbar .navbar fixed-top .container-fluid {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .navbar .navbar-brand {
+  body .navbar .navbar-brand {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
   }
-  .navbar .navbar-toggler {
+  body .navbar .navbar-toggler {
     margin-left: auto;
   }
-  .navbar .navbar-brand .logo-container .logo-image {
+  body .navbar .navbar-brand .logo-container .logo-image {
     width: 3rem;
   }
-  .navbar .navbar-brand .logo-container .page-title {
+  body .navbar .navbar-brand .logo-container .page-title {
     font-size: 2rem;
   }
-  .navbar .offcanvas-end {
+  body .navbar .offcanvas-end {
     max-width: 280px;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  .navbar {
+  body {
+    padding-top: 120px;
+  }
+  body .navbar {
     margin: 0;
     padding: 0;
     height: 120px;
   }
-  .navbar .navbar fixed-top .container-fluid {
+  body .navbar .navbar fixed-top .container-fluid {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .navbar .navbar-brand {
+  body .navbar .navbar-brand {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
   }
-  .navbar .navbar-toggler {
+  body .navbar .navbar-toggler {
     margin-left: auto;
   }
-  .navbar .navbar-brand .logo-container .logo-image {
+  body .navbar .navbar-brand .logo-container .logo-image {
     width: 4rem;
   }
-  .navbar .navbar-brand .logo-container .page-title {
+  body .navbar .navbar-brand .logo-container .page-title {
     font-size: 3rem;
   }
-  .navbar .offcanvas-end {
+  body .navbar .offcanvas-end {
     max-width: 300px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .navbar {
+  body {
+    padding-top: 200px;
+  }
+  body .navbar {
     margin: 0;
     padding: 0;
     height: 200px;
   }
-  .navbar .navbar fixed-top .container-fluid {
+  body .navbar .navbar fixed-top .container-fluid {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .navbar .navbar-brand {
+  body .navbar .navbar-brand {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
   }
-  .navbar .navbar-toggler {
+  body .navbar .navbar-toggler {
     margin-left: auto;
   }
-  .navbar .navbar-toggler {
+  body .navbar .navbar-toggler {
     margin-right: 1.5%;
   }
-  .navbar .navbar-brand .logo-container .logo-image {
+  body .navbar .navbar-brand .logo-container .logo-image {
     width: 5rem;
   }
-  .navbar .navbar-brand .logo-container .page-title {
+  body .navbar .navbar-brand .logo-container .page-title {
     font-size: 4rem;
   }
-  .navbar .offcanvas-end {
+  body .navbar .offcanvas-end {
     max-width: 320px;
   }
 }
