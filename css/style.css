@@ -28,11 +28,22 @@ header .navbar .navbar-toggler {
 header .navbar .offcanvas {
   background-color: #E8112D;
 }
-header .navbar .offcanvas .offcanvas-header {
+header .navbar .offcanvas .offcanvas-header .offcanvas-title {
   color: #FFF;
+  font-family: "Dancing Script", serif;
+  font-size: 1.6rem;
 }
-header .navbar .offcanvas .offcanvas-body .nav-item .nav-link {
-  color: #FFF;
+header .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .card .card-body .card-title {
+  font-family: "Dancing Script", serif;
+  font-size: 1.6rem;
+}
+header .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .card .card-body .card-subtitle {
+  font-family: "Dancing Script", serif;
+  font-size: 1.2rem;
+}
+header .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .card .card-body .btn-primary {
+  border: 0;
+  background-color: #E8112D;
 }
 
 @media screen and (max-width: 576px) {

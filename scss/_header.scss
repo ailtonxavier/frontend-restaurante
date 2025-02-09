@@ -38,15 +38,41 @@ header {
             background-color: $primary-color;
 
             .offcanvas-header {
-                color: $white-color;
+
+                .offcanvas-title {
+                    color: $white-color;
+                    font-family: $primary-font;
+                    font-size: 1.6rem;
+                }
 
             }
 
             .offcanvas-body {
 
-                .nav-item {
-                    .nav-link {
-                        color: $white-color;
+                .navbar-nav {
+
+                    .nav-item {
+
+                        .card {
+
+                            .card-body{
+
+                                .card-title {
+                                    font-family: $primary-font;
+                                    font-size: 1.6rem;
+                                }
+
+                                .card-subtitle {
+                                    font-family: $primary-font;
+                                    font-size: 1.2rem;
+                                }
+
+                                .btn-primary {
+                                    border: 0;
+                                    background-color: $primary-color;
+                                }
+                            }
+                        }
                     }
                 }
             }
