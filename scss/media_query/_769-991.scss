@@ -7,6 +7,17 @@
 
         @include page-title-aligh;
 
+        .navbar-brand {
+            .logo-container {
+                .logo-image {
+                    width: 3rem;
+                }
+                .page-title {
+                    font-size: 2rem;
+                }
+            }
+        }
+
         .offcanvas-end {
             max-width: 280px;
         }

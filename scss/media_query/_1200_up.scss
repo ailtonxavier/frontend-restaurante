@@ -5,8 +5,19 @@
         @include page-title-aligh;
 
         @include navbar-button-margin;
-        
-        height: 150px;
+
+        .navbar-brand {
+            .logo-container {
+                .logo-image {
+                    width: 5rem;
+                }
+                .page-title {
+                    font-size: 4rem;
+                }
+            }
+        }
+
+        height: 200px;
 
         .offcanvas-end {
             max-width: 320px;

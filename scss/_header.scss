@@ -7,6 +7,26 @@ header {
         .navbar-brand {
             color: $white-color;
 
+            .logo-container {
+                position: relative;
+                display: inline-block;
+            
+                .logo-image {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: -1;
+                }
+
+                .page-title {
+                    font-family: $primary-font;
+                    position: relative;
+                    z-index: 1;
+                    margin: 0;
+                }
+            }
+
         }
 
         .navbar-toggler {

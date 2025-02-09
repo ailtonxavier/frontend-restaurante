@@ -1,6 +1,21 @@
 @import '_mixins';
 
 @media screen and (max-width: 576px) {
+
+    .navbar-brand {
+
+        .logo-container {
+
+            .logo-image {
+                width: 2.5rem;
+            }
+
+            .page-title {
+                font-size: 1.8rem;
+            }
+        }
+    }
+
     .offcanvas-end {
         max-width: 90%;
     }
