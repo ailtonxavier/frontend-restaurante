@@ -1,0 +1,42 @@
+@import '_mixins';
+
+@mixin _576_down_header {
+    .navbar-brand {
+
+        .logo-container {
+
+            .logo-image {
+                width: 2.5rem;
+            }
+
+            .page-title {
+                font-size: 1.8rem;
+            }
+        }
+    }
+
+    .offcanvas-end {
+        max-width: 90%;
+    }
+}
+
+// @media screen and (max-width: 576px) {
+
+//     .navbar-brand {
+
+//         .logo-container {
+
+//             .logo-image {
+//                 width: 2.5rem;
+//             }
+
+//             .page-title {
+//                 font-size: 1.8rem;
+//             }
+//         }
+//     }
+
+//     .offcanvas-end {
+//         max-width: 90%;
+//     }
+// }

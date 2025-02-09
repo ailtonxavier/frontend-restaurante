@@ -1,26 +1,24 @@
-@media screen and (min-width: 1200px) {
+@mixin _577-768_header {
     .navbar {
-        @include no-padding-no-margin;
 
         @include page-title-aligh;
 
-        @include navbar-button-margin;
-
         .navbar-brand {
+
             .logo-container {
+
                 .logo-image {
-                    width: 5rem;
+                    width: 2.5rem;
                 }
+
                 .page-title {
-                    font-size: 4rem;
+                    font-size: 2rem;
                 }
             }
         }
 
-        height: 200px;
-
         .offcanvas-end {
-            max-width: 320px;
+                max-width: 260px;
+            }
         }
     }
-}

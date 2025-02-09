@@ -1,26 +1,26 @@
-@media screen and (min-width: 992px) and (max-width: 1199px){
-
+@mixin _769-991_header {
     .navbar {
 
         @include no-padding-no-margin;
 
-        height: 120px;
+        height: 100px;
 
         @include page-title-aligh;
 
         .navbar-brand {
             .logo-container {
                 .logo-image {
-                    width: 4rem;
+                    width: 3rem;
                 }
                 .page-title {
-                    font-size: 3rem;
+                    font-size: 2rem;
                 }
             }
         }
 
         .offcanvas-end {
-            max-width: 300px;
+            max-width: 280px;
         }
     }
+
 }

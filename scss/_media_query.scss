@@ -1,6 +1,26 @@
-@import './media_query/mixins';
-@import './media_query/576_down';
-@import './media_query/577-768';
-@import './media_query/769-991';
-@import './media_query/992-1199';
-@import './media_query/1200_up';
+@import './media_query_header/576_down_header';
+@import './media_query_header/577-768_header';
+@import './media_query_header/769-991_header';
+@import './media_query_header/992-1199_header';
+@import './media_query_header/1200_up_header';
+
+
+@media screen and (max-width: 576px) {
+    @include _576_down_header;
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    @include _577-768_header
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+    @include _769-991_header
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    @include _992-1199_header
+}
+
+@media screen and (min-width: 1200px) {
+    @include _1200-up_header
+}

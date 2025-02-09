@@ -57,7 +57,7 @@ header .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .card .card-body
     max-width: 90%;
   }
 }
-@media screen and (min-width: 557px) and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
   .navbar .navbar fixed-top .container-fluid {
     display: flex;
     justify-content: space-between;
