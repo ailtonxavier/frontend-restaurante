@@ -1,42 +1,30 @@
 @import '_mixins';
 
 @mixin _576_down_header {
-    .navbar-brand {
-
-        .logo-container {
-
-            .logo-image {
-                width: 2.5rem;
+    header {
+        .navbar {
+            height: 60px;
+            .navbar-brand {
+        
+                .logo-container {
+        
+                    .logo-image {
+                        width: 2.5rem;
+                    }
+        
+                    .page-title {
+                        font-size: 1.8rem;
+                    }
+                }
             }
-
-            .page-title {
-                font-size: 1.8rem;
+        
+            .offcanvas-end {
+                max-width: 90%;
             }
         }
-    }
-
-    .offcanvas-end {
-        max-width: 90%;
+    
+        .carousel-inner {
+            height: calc(100vh - 60px);
+        }
     }
 }
-
-// @media screen and (max-width: 576px) {
-
-//     .navbar-brand {
-
-//         .logo-container {
-
-//             .logo-image {
-//                 width: 2.5rem;
-//             }
-
-//             .page-title {
-//                 font-size: 1.8rem;
-//             }
-//         }
-//     }
-
-//     .offcanvas-end {
-//         max-width: 90%;
-//     }
-// }

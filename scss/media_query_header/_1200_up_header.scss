@@ -1,28 +1,33 @@
 @mixin _1200-up_header {
-
-    .navbar {
-
-        @include no-padding-no-margin;
-
-        @include page-title-aligh;
-
-        @include navbar-button-margin;
-
-        .navbar-brand {
-            .logo-container {
-                .logo-image {
-                    width: 5rem;
+    header {
+        .navbar {
+    
+            @include no-padding-no-margin;
+    
+            @include page-title-aligh;
+    
+            @include navbar-button-margin;
+    
+            .navbar-brand {
+                .logo-container {
+                    .logo-image {
+                        width: 5rem;
+                    }
+                    .page-title {
+                        font-size: 4rem;
+                    }
                 }
-                .page-title {
-                    font-size: 4rem;
-                }
+            }
+    
+            height: 200px;
+    
+            .offcanvas-end {
+                max-width: 320px;
             }
         }
 
-        height: 200px;
-
-        .offcanvas-end {
-            max-width: 320px;
+        .carousel-inner {
+            height: 500px;
         }
     }
 }

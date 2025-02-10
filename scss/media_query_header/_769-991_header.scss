@@ -3,6 +3,8 @@
 
         @include no-padding-no-margin;
 
+        @include navbar-button-margin; 
+
         height: 100px;
 
         @include page-title-aligh;
@@ -23,4 +25,7 @@
         }
     }
 
+    .carousel-inner {
+        height: calc(100vh - 100px);
+    }
 }

@@ -1,26 +1,32 @@
 @mixin _992_1199_header {
+    header {
+        .navbar {
+    
+            @include no-padding-no-margin;
 
-    .navbar {
-
-        @include no-padding-no-margin;
-
-        height: 120px;
-
-        @include page-title-aligh;
-
-        .navbar-brand {
-            .logo-container {
-                .logo-image {
-                    width: 4rem;
-                }
-                .page-title {
-                    font-size: 3rem;
+            @include navbar-button-margin;
+            
+            @include page-title-aligh;
+            
+            .navbar-brand {
+                .logo-container {
+                    .logo-image {
+                        width: 4rem;
+                    }
+                    .page-title {
+                        font-size: 3rem;
+                    }
                 }
             }
-        }
+            
+            height: 120px;
 
-        .offcanvas-end {
-            max-width: 300px;
+            .offcanvas-end {
+                max-width: 300px;
+            }
+        }
+        .carousel-inner {
+            height: calc(100vh - 120px);
         }
     }
 }
